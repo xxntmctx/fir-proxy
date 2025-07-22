@@ -1,72 +1,107 @@
-<h1 align="center">fir-proxy v1.0 by firefly</h1>
+<div align="center">
+  <h1>fir-proxy</h1>
+  <p><strong>一个高可用的 HTTP/SOCKS5 代理池，具有强大的图形化界面和多种代理获取方式。</strong></p>
+  <p>
+   
+  </p>
+</div>
 
-一个高可用的 HTTP/SOCKS5 代理池，提供强大的图形化界面和多种代理获取方式，帮助用户轻松管理和使用代理。
+<hr/>
 
-✨ 项目特点
-图形化界面：提供一个基于 ttkbootstrap 的现代化图形界面，操作直观。
+<h2 align="center"> ✨ 项目特点 </h2>
 
-多种代理源：支持从在线API、网页抓取 (fetcher.py)、本地文件导入 (main.py)、以及独立脚本 (hq.py, xdl.py) 等多种方式获取代理。
+<table border="0" cellpadding="10" cellspacing="0" width="100%">
+  <tr valign="top">
+    <td width="50%">
+      <ul>
+        <li><b>图形化界面</b>：基于 ttkbootstrap 的现代化图形界面，操作直观。</li>
+        <li><b>多种代理源</b>：支持从在线API、网页抓取、本地文件等多种方式获取。</li>
+        <li><b>高质量验证</b>：通过延迟、速度和国际连通性测试，确保代理真实可用。</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <ul>
+        <li><b>双协议服务</b>：一键启动本地 HTTP (127.0.0.1:1801) 和 SOCKS5 (127.0.0.1:1800) 服务。</li>
+        <li><b>智能轮换与筛选</b>：支持按区域、质量筛选代理，并可按设定时间自动轮换IP。</li>
+        <li><b>丰富的管理功能</b>：支持导出、复制、删除和全部重新测试等多种管理操作。</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-高质量验证：多阶段验证机制，通过延迟、速度和国际连通性（如Google）测试，确保代理的真实可用性。
+<hr/>
 
-双协议服务：可一键启动本地 HTTP (127.0.0.1:1801) 和 SOCKS5 (127.0.0.1:1800) 代理服务。
-
-智能轮换与筛选：支持按区域、按质量筛选代理，并可按设定时间间隔自动轮换IP。
-
-丰富的管理功能：支持代理的导出、复制、单个删除和全部重新测试等多种管理操作。
-
-📸 界面截图
-
+<h2 align="center"> 📸 界面截图 </h2>
 <img src=https://github.com/11firefly11/fir-proxy/blob/main/img/image-20250704183715196.png>
+<p align="center">
+  
+</p>
 
-主界面:
+<hr/>
 
-🚀 快速开始
-环境要求: Python 3.9 或更高版本。
-克隆或下载项目
- ```
-git clone https://github.com/your-username/fir-proxy.git  
-cd fir-proxy
- ```
-安装依赖
- ```
-pip install -r requirements.txt
- ```
-运行主程序
- ```
-python main.py
- ```
-📖 使用指南
-图形化界面 (main.py)
-获取代理：
-在线获取：点击 [获取在线代理] 按钮，程序将自动从多个源抓取并验证。
+<h2 align="center"> 🚀 快速开始 </h2>
 
-本地导入：点击 [导入代理] 按钮，选择本地的 .txt 或 .json 文件。
+<div align="center">
+  <p><strong>环境要求:</strong> Python 3.9 或更高版本。</p>
+</div>
 
-使用代理：
+<ol>
+  <li>
+    <strong>克隆或下载项目</strong>
+<pre><code>git clone https://github.com/your-username/fir-proxy.git
+cd fir-proxy</code></pre>
+  </li>
+  <li>
+    <strong>安装依赖</strong>
+<pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>
+    <strong>运行主程序</strong>
+<pre><code>python main.py</code></pre>
+  </li>
+</ol>
 
-点击 [启动服务] 按钮，开启本地 127.0.0.1:1801 (HTTP) 和 127.0.0.1:1800 (SOCKS5) 端口。
+<hr/>
 
-在需要代理的软件中配置上述地址即可。
+<h2 align="center"> 📖 使用指南 </h2>
 
-IP 轮换：
+<h3 align="left">图形化界面 (main.py)</h3>
 
-手动：点击 [轮换IP] 立即切换。
+<ul>
+  <li><b>获取代理</b>：
+    <ul>
+      <li><b>在线获取</b>：点击 <b>[获取在线代理]</b> 按钮，程序将自动从多个源抓取并验证。</li>
+      <li><b>本地导入</b>：点击 <b>[导入代理]</b> 按钮，选择本地的 <code>.txt</code> 或 <code>.json</code> 文件。</li>
+    </ul>
+  </li>
+  <br/>
+  <li><b>使用代理</b>：
+    <ul>
+      <li>点击 <b>[启动服务]</b> 按钮，开启本地 <code>127.0.0.1:1801 (HTTP)</code> 和 <code>127.0.0.1:1800 (SOCKS5)</code> 端口。</li>
+      <li>在需要代理的软件中配置上述地址即可。</li>
+    </ul>
+  </li>
+  <br/>
+  <li><b>IP 轮换</b>：
+    <ul>
+      <li><b>手动</b>：点击 <b>[轮换IP]</b> 立即切换。</li>
+      <li><b>自动</b>：点击 <b>[自动]</b> 并设置秒数，程序将按时自动切换。</li>
+    </ul>
+  </li>
+</ul>
 
-自动：点击 [自动] 并设置秒数，程序将按时自动切换。
+<h3 align="left">独立命令行脚本 (hq.py / xdl.py)</h3>
+<p>这两个脚本适合在服务器等无图形界面的环境下快速获取代理。</p>
 
-独立命令行脚本 (hq.py / xdl.py)
-这两个脚本适合在服务器等无图形界面的环境下快速获取代理。
+<ul>
+  <li><b>使用方法</b>：</li>
+</ul>
+<p><i># 运行智能模式脚本 (代理数量多,大约有30多w)</i></p>
+<pre><code>python hq.py</code></pre>
 
-使用方法：
+<p><i># 运行常规模式脚本(推荐,有2000多个)</i></p>
+<pre><code>python xdl.py</code></pre>
 
-# 运行智能模式脚本 (代理数量多,大约有30多w)
- ```
-python hq.py
- ```
-
-# 运行常规模式脚本(推荐,有2000多个)
- ```
-python xdl.py
- ```
-生成文件：脚本运行完毕后，会在当前目录下生成 http.txt 和 git.txt (SOCKS5代理) 文件。
+<ul>
+  <li><b>生成文件</b>：脚本运行完毕后，会在当前目录下生成 <code>http.txt</code> 和 <code>git.txt</code> (SOCKS5代理) 文件。</li>
+</ul>
