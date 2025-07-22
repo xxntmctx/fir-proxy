@@ -23,12 +23,18 @@ fir-proxy v1.0 by firefly
 🚀 快速开始
 环境要求: Python 3.9 或更高版本。
 克隆或下载项目
-git clone https://github.com/your-username/fir-proxy.git
+ ```
+git clone https://github.com/your-username/fir-proxy.git  
 cd fir-proxy
+ ```
 安装依赖
+ ```
 pip install -r requirements.txt
+ ```
 运行主程序
+ ```
 python main.py
+ ```
 📖 使用指南
 图形化界面 (main.py)
 获取代理：
@@ -53,9 +59,13 @@ IP 轮换：
 
 使用方法：
 
-# 运行智能模式脚本 (推荐，代理数量多)
+# 运行智能模式脚本 (代理数量多,大约有30多w)
+ ```
 python hq.py
+ ```
 
-# 运行常规模式脚本
+# 运行常规模式脚本(推荐,有2000多个)
+ ```
 python xdl.py
+ ```
 生成文件：脚本运行完毕后，会在当前目录下生成 http.txt 和 git.txt (SOCKS5代理) 文件。
