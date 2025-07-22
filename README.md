@@ -17,6 +17,7 @@
 
 📸 界面截图
 
+<img src=https://github.com/11firefly11/fir-proxy/blob/main/img/image-20250704183715196.png>
 
 主界面:
 
