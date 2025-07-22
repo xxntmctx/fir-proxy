@@ -42,7 +42,7 @@
 <h2 align="center"> 🚀 快速开始 </h2>
 
 <div align="center">
-  <p><strong>环境要求:</strong> Python 3.9 或更高版本。</p>
+  <p><strong>环境要求:</strong> Python 3.10 或更高版本。</p>
 </div>
 
 <ol>
