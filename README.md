@@ -15,34 +15,22 @@ fir-proxy v1.0 by firefly
 丰富的管理功能：支持代理的导出、复制、单个删除和全部重新测试等多种管理操作。
 
 📸 界面截图
-(此处建议你放上1-2张项目截图，可以先在 GitHub 上传图片再引用链接)
+
 
 主界面:
-![主界面](URL_TO_YOUR_SCREENSHOT_1)
 
 🚀 快速开始
 环境要求: Python 3.9 或更高版本。
-
 克隆或下载项目
-
-Bash
-
 git clone https://github.com/your-username/fir-proxy.git
 cd fir-proxy
 安装依赖
-
-Bash
-
 pip install -r requirements.txt
 运行主程序
-
-Bash
-
 python main.py
 📖 使用指南
 图形化界面 (main.py)
 获取代理：
-
 在线获取：点击 [获取在线代理] 按钮，程序将自动从多个源抓取并验证。
 
 本地导入：点击 [导入代理] 按钮，选择本地的 .txt 或 .json 文件。
@@ -63,8 +51,6 @@ IP 轮换：
 这两个脚本适合在服务器等无图形界面的环境下快速获取代理。
 
 使用方法：
-
-Bash
 
 # 运行智能模式脚本 (推荐，代理数量多)
 python hq.py
