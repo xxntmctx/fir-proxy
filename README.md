@@ -1,4 +1,4 @@
-fir-proxy v1.0 by firefly
+<h1 align="center">fir-proxy v1.0 by firefly</h1>
 
 一个高可用的 HTTP/SOCKS5 代理池，提供强大的图形化界面和多种代理获取方式，帮助用户轻松管理和使用代理。
 
