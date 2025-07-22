@@ -1,4 +1,0 @@
-requests[socks]
-ttkbootstrap
-beautifulsoup4
-lxml
