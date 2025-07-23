@@ -70,7 +70,7 @@ cd fir-proxy</code></pre>
 <ul>
   <li><b>获取代理</b>：
     <ul>
-      <li><b>在线获取</b>：点击 <b>[获取在线代理]</b> 按钮，程序将自动从多个源抓取并验证。</li>
+      <li><b>在线获取</b>：点击 <b>[获取在线代理]</b> 或者右键点击使用代理按钮，程序将自动从多个源抓取并验证。</li>
       <li><b>本地导入</b>：点击 <b>[导入代理]</b> 按钮，选择本地的 <code>.txt</code> 或 <code>.json</code> 文件。</li>
     </ul>
   </li>
@@ -99,7 +99,7 @@ cd fir-proxy</code></pre>
 <p><i># 运行智能模式脚本 (代理数量多,大约有30多w)</i></p>
 <pre><code>python hq.py</code></pre>
 
-<p><i># 运行常规模式脚本(推荐,有2000多个)</i></p>
+<p><i># 运行常规模式脚本(推荐,有2000多个，实际可用ip不多但快速)</i></p>
 <pre><code>python xdl.py</code></pre>
 
 <ul>
