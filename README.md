@@ -32,7 +32,7 @@
 <hr/>
 
 <h2 align="center"> 📸 界面截图 </h2>
-<img src=https://github.com/11firefly11/fir-proxy/blob/main/img/image-20250704183715196.png>
+<img src=https://github.com/11firefly11/fir-proxy/blob/main/img/代理池.png>
 <p align="center">
   
 </p>
