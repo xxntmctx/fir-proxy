@@ -48,7 +48,7 @@
 <ol>
   <li>
     <strong>克隆或下载项目</strong>
-<pre><code>git clone https://github.com/your-username/fir-proxy.git
+<pre><code>git clone https://github.com/xxntmctx/fir-proxy.git
 cd fir-proxy</code></pre>
   </li>
   <li>
